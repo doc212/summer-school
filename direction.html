@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>TDV/RAN - Direction</title>
+	</head>
+	<body>
+		<h1>Travaux de vacance et remises à niveau - Consultation</h1 >
+		<a href="index.html">Se déconnecter</a>
+
+		<h2>Liste des travaux de vacances et remises à niveau</h2>
+
+		<h3>Filtre</h3>
+		<form>
+			<p>
+				<label for="prof">Professeur: </label>
+				<select>
+					<option>Tous</option>
+					<option>Baeijens Vanessa</option>
+					<option>Bauwens Françoise</option>
+				</select>
+			</p>
+			<p>
+				<label for="branche">Branche: </label>
+				<select>
+					<option>Toutes</option>
+					<option>FRAN5</option>
+					<option>FRAN6</option>
+					<option>HIST2</option>
+				</select>
+			</p>
+			<p>
+				<label for="classe">Classe: </label>
+				<select>
+					<option>Toutes</option>
+					<option>1C</option>
+					<option>3GT</option>
+					<option>4GT</option>
+				</select>
+			</p>
+			<p>
+				<label for="student">Elève: </label>
+				<select>
+					<option>Tous</option>
+					<option> Aabid  Sarah </option>
+					<option> Abdellaoui  Ben </option>
+					<option>Camus  Raphael</option>
+				</select>
+			</p>
+			<p>
+				<label for="type">Type: </label>
+				<select>
+					<option>Tous</option>
+					<option>Travaux de vacance</option>
+					<option>Remise à niveau</option>
+				</select>
+			</p>
+			<p>
+				<label for="eval">Résultat:</label>
+				<input type="radio" name="eval" value="" checked="checked"/>Tous
+				<input type="radio" name="eval" value="noted" />Notés
+				<input type="radio" name="eval" value="todo"/>A noter
+			</p>
+		</form>
+
+
+		<h3>Liste</h3>
+
+		<table border="1">
+			<tr>
+				<th>Professeur</th>
+				<th>Branche</th>
+				<th>Classe</th>
+				<th>Elève</th>
+				<th>Type</th>
+				<th>Description</th>
+				<th>Note</th>
+				<th>Commentaire</th>
+				<th></th>
+			</tr>
+			<tr>
+				<td>Baeijens Vanessa</td>
+				<td>FRAN5</td>
+				<td>4GT</td>
+				<td>Aabid Sarah</td>
+				<td>Travail de vacance</td>
+				<td>Analyse des idées de Jean-Paul Sartre</td>
+				<td></td>
+				<td></td>
+				<td><a href="result.html">Encoder le résultat</a></td>
+			</tr>
+			<tr>
+				<td>Baeijens Vanessa</td>
+				<td>FRAN6</td>
+				<td>1C</td>
+				<td>Abdellaoui Ben</td>
+				<td>Remise à niveau</td>
+				<td>Conjugaison</td>
+				<td>14/20</td>
+				<td>Beaux progrès</td>
+				<td><a href="result.html">Encoder le résultat</a></td>
+			</tr>
+			<tr>
+				<td>Bauwens Françoise</td>
+				<td>HIST2</td>
+				<td>3GT</td>
+				<td>Camus Raphael</td>
+				<td>Travail de vacance</td>
+				<td>Etablir une ligne du temps des évènements menant à la bataille de Waterloo</td>
+				<td></td>
+				<td></td>
+				<td><a href="result.html">Encoder le résultat</a></td>
+			</tr>
+		</table>
+	</body>
+</html>
+
+
